@@ -54,5 +54,5 @@ fulldataframe['SequenceLengths'] = sequence_lengths
 fulldataframe = fulldataframe.drop(columns = ["SequenceID"])
 
 #create a tsv file of the data frame 
-fulldataframe.to_csv('/scratch/rollers/week10FINALPROJECT/PorphyraUmbilicalis/Porphyra-umbilicalis-AMPs/CompleteDataFrame.tsv', sep= '\t' , index=False, header = True)
+fulldataframe.to_csv('/scratch/rollers/week10FINALPROJECT/PorphyraUmbilicalis/Porphyraumbilicalis_AMPs/CompleteDataFrame.tsv', sep= '\t' , index=False, header = True)
 
